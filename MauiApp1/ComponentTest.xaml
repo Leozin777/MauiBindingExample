@@ -3,8 +3,7 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              x:Class="MauiApp1.ComponentTest">
     <VerticalStackLayout>
-        <Label 
-            Text="{Binding C_TextBin}"
+        <Label x:Name="MyComponentLabel"
             VerticalOptions="Center" 
             HorizontalOptions="Center" />
     </VerticalStackLayout>
